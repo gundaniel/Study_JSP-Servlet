@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang=ko>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<style>
+#address {
+	width: 300px;
+}
+
+.btn {
+	margin: 1px 10px;
+}
+</style>
+
+</head>
+<body>
+	<h3>[코딩시 요구사항]</h3>
+	<P>
+		getData.html --> 요청 url: /servletExample/getData <br /> method:
+		post방식 / 입력양식의 이름 및 아이디 (순서대로): dataForm, name, address<br /> 서블릿
+		name: GetData 생성
+	</P>
+	<form name="dataForm" id="dataForm">
+		<label>이 름: <input type="text" name="Name" id="name" placeholder="이름입력" required></label><br /> 
+		<label>주 소: <input type="text" name="address" id="address" placeholder="주소입력" required></label> <br />
+		<button type="button" id= "submitBtn" class="btn">전송</button> 
+		<button type="reset" class="btn" >취소</button>
+	</form>
+	
+		<script src="../js/jquery-3.7.1.min.js"></script>
+		<script src="../js/GetData.js"></script>
+	
+	<br />
+	<hr />
+</body>
+</html>
