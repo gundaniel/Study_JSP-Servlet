@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang=ko>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>점심메뉴정하기</title>
+
+</head>
+<body>
+<p>[코딩시요구사항] <br/>
+    	lunch.html --> 요청 url: /servletExample/todayMenu <br />
+    	method: post방식/ 입력양식의 이름: lunch <br />
+    	서블릿 name: TodayMenu 생성 <br/>
+    	</p>
+	 <h1>오늘 점심은 무엇을 먹을까? (2개 이상 선택)</h1><br>
+   <!--<form id="form" method="post" action="/servletExample/todayMenu"> --> 
+    <form name ="form" id="form">
+        <!-- 다중 선택 가능하게 하는 select -->
+        <select id="lunch" name="lunch" multiple size="4">
+            <option value="떡볶이">떡볶이</option>
+            <option value="마라탕">마라탕</option>
+            <option value="짜장면">짜장면</option>
+            <option value="돈까스">돈까스</option>
+            <option value="비빔밥">비빔밥</option>
+        </select><br><br> 
+        <!-- 제출 버튼 -->
+        <button type="button" id="submitBtn">전송</button>
+    </form>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+	<script src="../js/lunch.js"></script>
+
+	
+	
+</body>
+</html>
