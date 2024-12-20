@@ -9,4 +9,22 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+
+ <!-- <servlet>
+  <servlet-name>servletConfigTest</servlet-name>
+  <servlet-class>com.config.ServletConfigTestServlet</servlet-class>
+  <init-param>
+  <param-name>charset</param-name>
+  <param-value>UTF-8</param-value>  
+  </init-param>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>servletConfigTest</servlet-name>
+  <url-pattern>/configTest</url-pattern>
+  </servlet-mapping> -->
+
+
+
 </web-app>
+  
+ 
